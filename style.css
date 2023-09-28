@@ -1,27 +1,34 @@
 * {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 }
 
 body {
+    color: white;
     width: 90%;
+    font-family:'Trebuchet MS', sans-serif;
 }
 
 header {
-    color: lightslategray;
+    background-color: lightslategray;
     height: 60px;
     margin-top: 20px;
 }
 
 section {
-    color: lightseagreen;
+    background-color: lightseagreen;
     height: 400px;
     margin-top: 20px;
 }
 
 footer {
-    color: lightslategray;
+    background-color: lightslategray;
     height: 120px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+header, section, footer {
+    display: flex;
+    align-items: center;
 }
