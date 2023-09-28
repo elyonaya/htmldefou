@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 90%;
+}
+
+header {
+    color: lightslategray;
+    height: 60px;
+    margin-top: 20px;
+}
+
+section {
+    color: lightseagreen;
+    height: 400px;
+    margin-top: 20px;
+}
+
+footer {
+    color: lightslategray;
+    height: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
